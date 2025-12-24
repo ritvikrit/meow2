@@ -1,5 +1,6 @@
 def web_search(query: str) -> str:
     """Search the web for information."""
+    print(f"Research tool: Searching for '{query}'")
     return (
         "Here are the headcounts for each of the FAANG companies in 2024:\n"
         "1. **Facebook (Meta)**: 67,317 employees.\n"
